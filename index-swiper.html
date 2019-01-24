@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>苏宁</title>
+    <link rel="stylesheet" type="text/less" href="less/index-swiper.less">
+    <link rel="stylesheet" href="lib/swiper/swiper.min.css">
+    <script src="lib/less/less.min.js"></script>
+</head>
+<body>
+<div class="sn_container">
+    <!--顶部通栏-->
+    <header class="sn_topBar">
+        <div class="header_main">
+            <a href="" class="icon_categorize"></a>
+            <form action="">
+                <span class="icon-search"></span>
+                <input type="search" placeholder="金龙鱼超品满300减100">
+            </form>
+            <a href="" class="sn_login">登陆</a>
+        </div>
+    </header>
+    <!--轮播图-->
+    <style>
+       .swiper-container ul li a img{
+           display: block;
+           width: 100%;
+       }
+    </style>
+    <div class="swiper-container">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide"><a href=""><img src="images/sn_banner1.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href=""><img src="images/sn_banner2.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href=""><img src="images/sn_banner3.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href=""><img src="images/sn_banner4.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href=""><img src="images/sn_banner5.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href=""><img src="images/sn_banner6.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href=""><img src="images/sn_banner7.jpg" alt=""></a></li>
+            <li class="swiper-slide"><a href=""><img src="images/sn_banner8.jpg" alt=""></a></li>
+        </ul>
+        <ul  class="swiper-pagination"> </ul>
+
+    </div>
+    <div class="adv">
+        <a href=""><img src="images/adv1.webp" alt=""></a>
+        <a href=""><img src="images/adv2.webp" alt=""></a>
+        <a href=""><img src="images/adv3.webp" alt=""></a>
+    </div>
+    <!--分类-->
+    <nav class="sn_nav">
+        <ul>
+            <li>
+                <a href="">
+                    <img src="images/nav1.webp" alt="">
+                    <span>爆款手机</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="">
+                    <img src="images/nav2.webp" alt="">
+                    <span>苏宁超市</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="">
+                    <img src="images/nav3.webp" alt="">
+                    <span>生活家电</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="">
+                    <img src="images/nav4.webp" alt="">
+                    <span>苏宁生鲜</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="">
+                    <img src="images/nav5.webp" alt="">
+                    <span>母婴玩具</span>
+                </a>
+            </li>
+        </ul><ul>
+        <li>
+            <a href="">
+                <img src="images/nav6.webp" alt="">
+                <span>限时抢购</span>
+            </a>
+        </li>
+    </ul><ul>
+        <li>
+            <a href="">
+                <img src="images/nav7.webp" alt="">
+                <span>赚钱</span>
+            </a>
+        </li>
+    </ul><ul>
+        <li>
+            <a href="">
+                <img src="images/nav8.webp" alt="">
+                <span>苏宁拼购</span>
+            </a>
+        </li>
+    </ul><ul>
+        <li>
+            <a href="">
+                <img src="images/nav9.webp" alt="">
+                <span>苏宁家电</span>
+            </a>
+        </li>
+    </ul>
+        <ul>
+            <li>
+                <a href="">
+                    <img src="images/nav10.webp" alt="">
+                    <span>签到有礼</span>
+                </a>
+            </li>
+        </ul>
+
+
+
+
+    </nav>
+    <!--页签-->
+    <div class="sn_tabs">
+        <ul>
+            <li>
+                <a href="">
+                    <img src="images/tab1.png" alt="">
+                    <span style="color: #fa0;">猜你喜欢</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/tab2.png" alt="">
+                    <span>分类</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/tab3.png" alt="">
+                    <span>必抢清单</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/tab4.png" alt="">
+                    <span>购物车</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/tab5.png" alt="">
+                    <span>我的异购</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div style="height: 800px;width: 100%;"></div>
+</div>
+<script src="lib/swiper/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+          autoplay:true,
+          effect:"cube",
+          loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+    })
+</script>
+</body>
+</html>
